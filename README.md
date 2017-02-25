@@ -6,6 +6,42 @@ Plugin for Sublime Text, a cross platform text and code editor, available for Li
 
  * [Sublime Text](http://www.sublimetext.com/)
 
+
+### Installation
+
+#### manual
+
+1. Clone this repository somewhere on your machine. This guide will assume `~/.zsh/sublime`.
+
+  ```sh
+  git clone git://github.com/valentinocossar/sublime.git ~/.zsh/sublime
+  ```
+
+2. Add the following to your `.zshrc`:
+
+  ```sh
+  source ~/.zsh/sublime/sublime.plugin.zsh
+  ```
+
+3. Start a new terminal session.
+
+#### oh-my-zsh
+
+1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
+
+  ```sh
+  git clone git://github.com/valentinocossar/sublime.git $ZSH_CUSTOM/plugins/sublime
+  ```
+
+2. Add the plugin to the list of plugins for Oh My Zsh to load:
+
+  ```sh
+  plugins=(sublime)
+  ```
+
+3. Start a new terminal session.
+
+
 ### Usage
 
  * If `st` command is called without an argument, launch Sublime Text.
