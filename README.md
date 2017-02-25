@@ -9,7 +9,7 @@ Plugin for Sublime Text, a cross platform text and code editor, available for Li
 
 ### Installation
 
-#### manual
+#### Manual
 
 1. Clone this repository somewhere on your machine. This guide will assume `~/.zsh/sublime`.
 
@@ -25,7 +25,7 @@ Plugin for Sublime Text, a cross platform text and code editor, available for Li
 
 3. Start a new terminal session.
 
-#### oh-my-zsh
+#### Oh My Zsh
 
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
@@ -33,7 +33,7 @@ Plugin for Sublime Text, a cross platform text and code editor, available for Li
   git clone git://github.com/valentinocossar/sublime.git $ZSH_CUSTOM/plugins/sublime
   ```
 
-2. Add the plugin to the list of plugins for oh-my-zsh to load:
+2. Add the plugin to the list of plugins for Oh My Zsh to load:
 
   ```sh
   plugins=(sublime)
