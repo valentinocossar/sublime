@@ -33,7 +33,7 @@ Plugin for Sublime Text, a cross platform text and code editor, available for Li
   git clone git://github.com/valentinocossar/sublime.git $ZSH_CUSTOM/plugins/sublime
   ```
 
-2. Add the plugin to the list of plugins for Oh My Zsh to load:
+2. Add the plugin to the list of plugins for oh-my-zsh to load:
 
   ```sh
   plugins=(sublime)
