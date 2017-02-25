@@ -34,7 +34,7 @@ elif  [[ "$OSTYPE" = darwin* ]]; then
     for _sublime_path in $_sublime_darwin_paths; do
         if [[ -a $_sublime_path ]]; then
             subl () { "$_sublime_path" $* }
-            alias st=subl
+            alias st='subl -a'
             break
         fi
     done
@@ -48,7 +48,7 @@ elif [[ "$OSTYPE" = 'cygwin' ]]; then
     for _sublime_path in $_sublime_cygwin_paths; do
         if [[ -a $_sublime_path ]]; then
             subl () { "$_sublime_path" $* }
-            alias st=subl
+            alias st='subl -a'
             break
         fi
     done
